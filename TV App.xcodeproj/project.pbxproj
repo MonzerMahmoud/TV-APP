@@ -11,6 +11,8 @@
 		F440BD06285C708B0087E66A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F440BD05285C708B0087E66A /* ContentView.swift */; };
 		F440BD08285C708E0087E66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440BD07285C708E0087E66A /* Assets.xcassets */; };
 		F440BD0B285C708E0087E66A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F440BD0A285C708E0087E66A /* Preview Assets.xcassets */; };
+		F4547BAA285C9E54002F56DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4547BA9285C9E54002F56DE /* HomeView.swift */; };
+		F48412C5285CF61500E6589C /* AnimeSeriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48412C4285CF61500E6589C /* AnimeSeriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F440BD05285C708B0087E66A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F440BD07285C708E0087E66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F440BD0A285C708E0087E66A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4547BA9285C9E54002F56DE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F48412C4285CF61500E6589C /* AnimeSeriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				F440BD03285C708B0087E66A /* TV_AppApp.swift */,
 				F440BD05285C708B0087E66A /* ContentView.swift */,
+				F4547BA9285C9E54002F56DE /* HomeView.swift */,
 				F440BD07285C708E0087E66A /* Assets.xcassets */,
 				F440BD09285C708E0087E66A /* Preview Content */,
+				F48412C4285CF61500E6589C /* AnimeSeriesView.swift */,
 			);
 			path = "TV App";
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48412C5285CF61500E6589C /* AnimeSeriesView.swift in Sources */,
+				F4547BAA285C9E54002F56DE /* HomeView.swift in Sources */,
 				F440BD06285C708B0087E66A /* ContentView.swift in Sources */,
 				F440BD04285C708B0087E66A /* TV_AppApp.swift in Sources */,
 			);
